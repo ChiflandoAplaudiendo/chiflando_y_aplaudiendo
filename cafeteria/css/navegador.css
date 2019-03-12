@@ -1,0 +1,54 @@
+header input {
+  display: none;
+  float: right;
+}
+header label {
+  float: right;
+  margin-top: 5px;
+
+  color: rgba(0, 0, 0, 1);
+  font-size: 38px;
+
+  cursor: pointer;
+}
+nav {
+  position: absolute;
+  overflow: hidden;
+  margin-top: 100px;
+
+  background-color: rgba(255, 255, 255, 0.9);
+
+  width: 0%;
+  height: 100vh;
+
+  padding-top: 20PX;
+}
+  nav a {
+    width: 90%;
+    display: block;
+    margin-left: 20px;
+    padding: 20px;
+    color: rgba(219, 126, 39, 1);
+    text-decoration: none;
+    font-family: "CormorantUpright-SemiBold", monospace;
+    font-size: 20px;
+  }
+  nav a:hover {
+    border-bottom-style: solid;
+    border-width: 1px;
+  }
+
+  :focus {
+    outline:none;
+  }
+  ::-moz-focus-inner {
+    border:0;
+  }
+
+.animacion_desplegable_end {
+    width: 100%;
+    transition-duration: 0.5s;
+}
+.animacion_desplegable_start {
+    width: 0%;
+}

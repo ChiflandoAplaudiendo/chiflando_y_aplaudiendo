@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "CormorantUpright-SemiBold";
+  src: url("../fts/Cormorant_Upright/CormorantUpright-SemiBold.ttf");
+}
+@font-face {
+  font-family: "DancingScript-Bold";
+  src: url("../fts/Dancing_Script/DancingScript-Bold.ttf");
+}
+@font-face {
+  font-family: "Krub-Regular";
+  src: url("../fts/Krub/Krub-Regular.ttf");
+}
+@font-face {
+  font-family: "PT_Sans-Narrow-Web-Regular";
+  src: url("../fts/PT_Sans_Narrow/PT_Sans-Narrow-Web-Regular.ttf");
+}

@@ -1,0 +1,72 @@
+/* ↓ ************************************** restaurantes ************************************** ↓ */
+#restaurantes {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(255, 255, 255, 1);
+}
+  #restaurantes h2 {
+    padding: 25px;
+    text-align: center;
+    font-family: "DancingScript-Bold", monospace;
+    font-size: 40px;
+    color: rgba(191, 16, 136, 1);
+  }
+  #restaurantes div {
+    /*display: flex; Para Celular*/
+  }
+  .logos_restaurantes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logos_restaurantes div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 140px;
+    height: 130px;
+    margin: auto;
+
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-family: "CormorantUpright-SemiBold", monospace;
+    text-align: center;
+  }
+  .logos_restaurantes div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logos_restaurantes div p {
+    font-size: 22px;
+    color: rgba(232, 87, 12, 1);
+    font-weight: bold;
+  }
+    .logos_restaurantes img {
+      width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  #restaurantes div {
+    display: flex; /*Para Celular*/
+  }
+}

@@ -1,0 +1,138 @@
+#contacto {
+  font-family: "PT_Sans-Narrow-Web-Regular", monospace;
+  color: rgba(0, 0, 0, 1);
+
+  background-image: url("../img/degradados/flores_2.jpg");
+}
+#contacto div {
+  width: 100%;
+}
+  #contacto_encabezado  {
+    padding: 25px;
+    text-align: center;
+    font-size: 22px;
+  }
+    #correo {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    #correo p {
+      text-align: center;
+      font-size: 18px;
+    }
+    form {
+      padding: 20px;
+    }
+      form div {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+      }
+        form div label {
+          margin-bottom: 3px;
+          font-size: 18px;
+        }
+        form div input {
+          width: 100%;
+          padding: 13px 10px 13px 10px;
+          border-style: solid;
+          border-radius: 3px;
+          border-color: rgba(0, 0, 0, 0.5);
+          background-color: rgba(255, 255, 255, 0.6);
+        }
+        form div textarea {
+          width: 100%;
+          height: 180px;
+          padding: 13px 10px 13px 10px;
+          border-style: solid;
+          border-radius: 3px;
+          border-color: rgba(0, 0, 0, 0.5);
+          background-color: rgba(255, 255, 255, 0.6);
+        }
+        #submit {
+          display: flex;
+          flex-direction: row;
+        }
+          #submit input {
+            background-color: rgba(221, 193, 107, 0.8);
+          }
+          #submit input:hover {
+            background-color: rgba(221, 193, 107, 1);
+          }
+        form div input:hover {
+          background-color: rgba(255, 255, 255, 1);
+        }
+        form div textarea:hover {
+          background-color: rgba(255, 255, 255, 1);
+        }
+
+
+
+    #ubicacion {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+      #ubicacion p {
+        text-align: center;
+        font-size: 18px;
+      }
+      iframe {
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+
+        border-style: solid;
+        border-radius: 5px;
+
+        margin: auto;
+      }
+
+    #direccion_redes {
+      width: 100%;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+      #direccion_redes div {
+        width: 100%;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #direccion_redes div p {
+        font-family: "PT_Sans-Narrow-Web-Regular", monospace;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        margin-top: 15px;
+      }
+      #direccion_redes div p a {
+        color: rgba(255, 255, 255, 0.8);
+      }
+      #direccion_redes div p a:hover {
+        color: rgba(255, 255, 255, 1);
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+  #contacto div {
+    display: flex;
+  }
+}

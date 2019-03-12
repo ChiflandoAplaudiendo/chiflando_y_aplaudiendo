@@ -1,0 +1,88 @@
+/* ↓ ************************************** restaurantes ************************************** ↓ */
+#restaurantes {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(255, 255, 255, 1);
+}
+#separador_restaurante {
+  margin: auto;
+  width: 80%;
+}
+#separador_restaurante img {
+  width: 100%;
+  height: 100%;
+}
+  #restaurantes h2 {
+    padding: 25px;
+    text-align: center;
+    font-family: "DancingScript-Bold", monospace;
+    font-size: 40px;
+    color: rgba(191, 16, 136, 1);
+  }
+  #restaurantes div {
+    /*display: flex; Para Celular*/
+  }
+  .restaurantes_lado_ab {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .restaurantes_lado_ab div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 160px;
+    margin: auto;
+
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-style: solid;
+    border-color: rgba(191, 16, 136, 1);
+    border-radius: 5px;
+
+    font-family: "CormorantUpright-SemiBold", monospace;
+    text-align: center;
+
+    background-image: url("../img/degradados/cubiertos2.jpg");
+    background-size: 100% 100%;
+  }
+  .restaurantes_lado_ab div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .restaurantes_lado_ab div p {
+    font-size: 22px;
+    color: rgba(232, 87, 12, 1);
+    font-weight: bold;
+  }
+    .restaurantes_lado_ab img {
+      max-width: 160px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  #restaurantes div {
+    display: flex; /*Para Celular*/
+  }
+}

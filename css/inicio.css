@@ -1,0 +1,25 @@
+#inicio {
+  width: 100%;
+  position: relative;
+}
+  #slider_imagen {
+    width: 100%;
+  }
+    #logo_centro {
+      width: 50%;
+      max-width: 330px;
+      position: absolute;
+      top: 25%;
+      bottom: 25%;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+      #logo_centro img {
+        width: 100%;
+        opacity: 0.6;
+      }
+
+    #imagen_inicio {
+      width: 100%;
+    }

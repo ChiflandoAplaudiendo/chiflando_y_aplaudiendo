@@ -1,0 +1,52 @@
+@import "inicio.css";
+@import "navegador.css";
+@import "nosotros.css";
+@import "restaurantes.css";
+@import "contacto.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+header {
+  background-color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 100px;
+
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+  #img_logo {
+    width: 170px;
+    float: left;
+  }
+    #img_logo img {
+      width: 100%;
+      height: 100%;
+    }
+  #redes {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 5px;
+  }
+  #redes a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #redes a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+  }
+.contenedor {
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+}
